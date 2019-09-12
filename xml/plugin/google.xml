@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Google -- DuckDuck Bang!</ShortName>
+  <Description>Google -- DuckDuck Bang!</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+	  <Url type="text/html" template="https://tt7753.github.io/bang-custom-search/plugin.html">
+		  <Param name="q" value="{searchTerms}"/>
+		   <Param name="su" value="https://google.de/search?q=@search@" />
+  </Url>
+  <Url template="https://suggestqueries.google.com/complete/search" type="application/x-suggestions+json">
+	  <Param name="output" value="firefox"/>
+	  <Param name="q" value="{searchTerms}"/>
+  </Url>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://tt7753.github.io/bang-custom-search/xml/plugin/google.xml" />
+</OpenSearchDescription>
