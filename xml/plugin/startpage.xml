@@ -2,7 +2,7 @@
   <ShortName>Startpage -- DuckDuck Bang!</ShortName>
   <Description>Startpage -- DuckDuck Bang!</Description>
   <InputEncoding>UTF-8</InputEncoding>
-	  <Url type="text/html" template="https://tt7753.github.io/bang-custom-search/plugin.html">
+	  <Url type="text/html" template="https://sophie-glk.github.io/bang-custom-search/plugin.html">
 		  <Param name="q" value="{searchTerms}"/>
 		   <Param name="su" value="https://www.startpage.com/do/dsearch?query=@search@" />
   </Url>
@@ -10,5 +10,5 @@
 	  <Param name="format" value="json"/>
 	  <Param name="query" value="{searchTerms}"/>
   </Url>
-<Url type="application/opensearchdescription+xml" rel="self" template="https://tt7753.github.io/bang-custom-search/xml/plugin/startpage.xml" />
+<Url type="application/opensearchdescription+xml" rel="self" template="https://sophie-glk.github.io/bang-custom-search/xml/plugin/startpage.xml" />
 </OpenSearchDescription>
